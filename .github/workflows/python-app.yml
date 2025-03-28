@@ -30,5 +30,3 @@ jobs:
         python hhc_to_helpndoc.py -i toc.hhc
     - name: Download a Build Artifact
       uses: actions/download-artifact@v4.2.1
-      with:
-        name: helpndoc
